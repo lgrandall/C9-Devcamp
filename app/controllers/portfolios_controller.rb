@@ -54,4 +54,11 @@ class PortfoliosController < ApplicationController
     end
   end
 
+  def missing
+  end
+
+  def something
+    @something = params[:something]
+  end
+
 end
